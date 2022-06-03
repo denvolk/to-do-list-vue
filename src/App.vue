@@ -45,8 +45,6 @@ export default {
 }
 </script>
 
-<style>
-.completed {
-  text-decoration-line: line-through;
-}
+<style lang="less">
+@import "style.css";
 </style>
