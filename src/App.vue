@@ -18,9 +18,11 @@
 //import {ref} from 'vue';
 
 export default {
-  data: {
-    newTask: '',
-    tasks: []
+  data() {
+    return {
+      newTask: '',
+      tasks: []
+    }
   },
 
   methods: {
